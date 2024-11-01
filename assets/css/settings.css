@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+	.sf-wrapper {
+		display: grid;
+		grid-template-columns: 9fr 3fr;
+		column-gap: 50px;
+	}
+}
+
+.sf .forminp .description {
+	display: block;
+	margin-top: 10px;
+}
+
+.sf .forminp-button {
+	padding: 0 0 15px;
+}
+
+/**
+ * Exclude page.
+ */
+.settings_page_sf-settings .select2-results__option .parent {
+	font-weight: bold;
+}
+
+.settings_page_sf-settings .select2-results__option .child {
+	padding-left: 8px;
+}
